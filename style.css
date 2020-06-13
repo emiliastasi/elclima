@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+color: white;
+background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(130,201,173,1) 50%, rgba(30,236,151,1) 66%);
+}
+.location, .temprerature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temprerature {
+    flex-direction: column;
+}
+.temperature-description, .humedad, .precipitacion{
+    font-size: 28px;
+    color: #fd1d1d;
+}
+h1{ 
+    font-size: 26px;
+    align-self: center;
+    
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+.degree-section h2 {
+    font-size: 40px;
+    color: white;
+
+}
+.temperature-degree:hover {
+    color:#fd1d1d;
+  
+}
